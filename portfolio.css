@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.navbar .collapse .navbar-nav .nav-link {
+    color: #082081 !important;
+    font-size: small;
+}
+
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
+    color: navy;
+}
+
+/********** Portfolio **********/
+.portfolio-head {
+    background: #082081;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.portfolio .portfolio-container-1 {
+    border: 2px solid blue;
+    height: 100% !important
+}
+
+.portfolio .portfolio-container-1 .portfolio-item {
+    border: 2px solid blue !important;
+    height: 33%;
+}
+
+/********** Rentals **********/
+.rental-head {
+    background: #082081;
+}
+
+.rental-content .card-body button {
+    width: 9em;
+}
+
+.rental-content .card-body .btn {
+    background: red;
+}
+
+.rental-content .card-body .txt {
+    color: #082081;
+    font-size: medium;
+}
+
+.rental-content .card-body h6 {
+    color: #082081;
+    font-size: medium;
+}
+
+.rental-content .card-body p {
+    color: #082081;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer .div1 {
+    font-size: small;
+}
+
+#footer .social-links .bi {
+    color: #fff !important;
+}
+
+#footer .social-links .bi:hover {
+    color: #3b8855 !important;
+}
+
+#footer .dev {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
